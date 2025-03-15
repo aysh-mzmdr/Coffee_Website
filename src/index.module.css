@@ -1,0 +1,59 @@
+body{
+    margin: 0px;
+    background-color:#0c0707;
+}
+
+.intro{
+    background-image: url("./src/assets/Coffee.gif");
+    background-size: cover;
+    background-blend-mode: multiply;                    /* Multiplying blend mode and opacity 0.8 helped to darken the image*/
+    background-color: rgba(0, 0, 0, 0.8);
+    width:100vw;
+    height:100vh;
+}
+
+.introText{
+    position:absolute;
+    top:50%;
+    left:35%;
+    color: white;
+}
+
+.box{
+    background-color: white;
+    color:#0c0707;
+    max-width: 305px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:20px;
+    margin-inline: 35px;
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer{
+    font-size: 20px;
+    padding:20px;
+    background-color: rgb(36, 20, 46);
+    color:white;
+}
+
+button{
+    margin-left: 25px;
+    font-size: 40px;
+    border-radius: 10px;
+    padding: 10px;
+    padding-inline: 20px;
+    background-color: bisque;
+    color: rgb(84, 41, 41);
+    
+}
+
+button:hover{
+    font-weight: 700;
+}
