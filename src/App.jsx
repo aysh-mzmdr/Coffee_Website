@@ -1,5 +1,6 @@
 import styles from "./index.module.css";
 import Menu from "./menu.jsx";
+import Canva from "./canva.jsx";
 function App(){
 
   return(
@@ -22,7 +23,7 @@ function App(){
         <Menu name="Turkish Coffee" desc="Rich, thick, and brewed to perfection in a traditional copper pot. Our Turkish coffee is a sip of history, with an unforgettable bold taste."/>
       </div>
       <div className={styles.canva}>
-          <canvas className="canva"></canvas>
+          <Canva/>
       </div>
       <div className={styles.footer}>
           <div style={{textAlign:"center",fontSize:"50px"}}>Book your seat now!!! <button className={styles.book}>Book</button></div><br></br><br></br><br></br>
