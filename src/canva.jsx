@@ -15,7 +15,7 @@ function canva(){
 
         const model={box:new THREE.Mesh}
         const blendLoad=new GLTFLoader()
-        blendLoad.load("src/assets/cube.glb",(gltf) => {
+        blendLoad.load("./src/assets/cube.glb",(gltf) => {
             model.box=gltf.scene;
             scene.add(model.box);
         })
