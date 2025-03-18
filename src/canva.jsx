@@ -46,7 +46,7 @@ function canva(){
         controls.enableDamping=true
         const renderloop=()=>{
             controls.update()
-            model.box.rotation.y-=0.005
+            model.box.rotation.y-=0.003
             window.requestAnimationFrame(renderloop)
             renderer.render(scene,camera)
         }

@@ -9,7 +9,7 @@ body{
 
 .intro{
     background-image: url("./src/assets/Coffee.gif");
-    background-size: cover;
+    background-size:cover;
     background-blend-mode: multiply;                    /* Multiplying blend mode and opacity 0.8 helped to darken the image*/
     background-color: rgba(0, 0, 0, 0.8);
     width:100vw;
@@ -139,4 +139,27 @@ body{
     0%{background-position: 0 0;}
     50%{background-position: 500px 300px;}
     100%{background-position: 0 0;}
+}
+
+@media only screen and (max-width:768px) and (orientation:portrait) {
+    .intro{
+        background-image: url("./src/assets/Coffee.gif");
+        background-size:contain;
+        background-repeat: no-repeat;
+        background-blend-mode: multiply;                    /* Multiplying blend mode and opacity 0.8 helped to darken the image*/
+        background-color: rgba(0, 0, 0, 0.8);
+        width:100vw;
+        height:100vh;
+        margin-top: 260px;
+        margin-bottom: 60px;
+    }
+    .introText{
+        position:absolute;
+        top:40%;
+        left:15%;
+        color: rgb(255, 246, 230);
+        font-size: 150%;
+        font-weight: 800;
+        text-shadow: 0px 0px 10px brown ;
+    }
 }
