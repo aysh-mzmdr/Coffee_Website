@@ -149,13 +149,12 @@ body{
         background-blend-mode: multiply;                    /* Multiplying blend mode and opacity 0.8 helped to darken the image*/
         background-color: rgba(0, 0, 0, 0.8);
         width:100vw;
-        height:100vh;
-        margin-top: 260px;
-        margin-bottom: 60px;
+        height:500px;
+        margin-bottom: 0px;
     }
     .introText{
         position:absolute;
-        top:40%;
+        top:10%;
         left:15%;
         color: rgb(255, 246, 230);
         font-size: 100%;
