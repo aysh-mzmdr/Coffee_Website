@@ -11,6 +11,7 @@ function App(){
           <h4>For we understand your tastebuds</h4>
         </div>
       </div>
+      
       <h1 className={styles.our_menu} style={{color:"white",textAlign:"center",fontSize:"50px",marginBottom:"50px"}}>Our Menu</h1>
       <div className={styles.menu}>
         <Menu name="Espresso" desc="Experience the bold, rich flavor of our finely crafted espresso—small in size, but big in energy!"/>
