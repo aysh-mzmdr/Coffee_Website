@@ -143,7 +143,7 @@ body{
 
 @media only screen and (max-width:768px) and (orientation:portrait) {
     .intro{
-        background-image: url("./src/assets/Coffee.gif");
+        background-image: url("/Coffee.gif");
         background-size:contain;
         background-repeat: no-repeat;
         background-blend-mode: multiply;                    /* Multiplying blend mode and opacity 0.8 helped to darken the image*/
